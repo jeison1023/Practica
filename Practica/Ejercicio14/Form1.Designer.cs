@@ -54,7 +54,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(368, 313);
+            this.tabPage1.Size = new System.Drawing.Size(465, 313);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Bienvenido";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -74,11 +74,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(50, 130);
+            this.label1.Location = new System.Drawing.Point(89, 139);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(254, 25);
+            this.label1.Size = new System.Drawing.Size(269, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Bienvenido a mi proyecto";
+            this.label1.Text = "¡Bienvenido a mi proyecto!";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -90,6 +90,7 @@
             this.label2.Size = new System.Drawing.Size(397, 22);
             this.label2.TabIndex = 2;
             this.label2.Text = "\"¡Hola, soy Luis alberto y LR-2024-01303!\".";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Form1
             // 

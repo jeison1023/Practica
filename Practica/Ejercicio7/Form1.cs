@@ -19,13 +19,18 @@ namespace Ejercicio7
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            if (!string.IsNullOrWhiteSpace(textBox1.Text)) 
+            {
+                listBox1.Items.Add(textBox1.Text); 
+                textBox1.Clear(); 
+            }
+            
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
-        }
+        }   
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
